@@ -1,0 +1,77 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: gray;
+}
+
+#window {
+    width: 100%;
+}
+
+#modal-window{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+
+#modal-header, #modal-footer{
+    display: flex;
+    height: 20%;
+    flex-direction: row;
+    padding: 20px;
+    background-color: azure;
+}
+
+#title{
+    color: darkcyan;
+}
+
+#close {
+    border: none;
+    background-color: red;
+    border-radius: 5px 5px;
+    font-size: 15px;
+    width: 5%;
+    color: darkgrey;
+    margin-left: 240px;
+}
+
+#modal-body{
+    height: 60%;
+    padding: 30px;
+    font-size: 15px;
+    background-color: white;
+}
+
+#case{
+    margin-top: 10px;
+}
+
+#ok{
+    background-color: green;
+    color: white;
+    width: 15%;
+}
+
+#or{
+    color: darkgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+#cancel, #closeWindow{
+    background-color: red;
+    color: white;
+    width: 15%;
+}
+
+#closeWindow{
+    margin-left: 10px;
+}
